@@ -1,4 +1,4 @@
-NSEFinance-Python
+NSEFinance-PHP
 =================
 
 PHP Library for NSEFinance
