@@ -1,7 +1,7 @@
 <?php
 class NSEFinance
 {
-	private $url = "http://127.0.0.1/api/stocks";
+	private $url = "http://nsefinance.com/api/stocks";
 	
 	private function data($symbol = "", $date="")	
 	{
