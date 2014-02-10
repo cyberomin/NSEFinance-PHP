@@ -9,7 +9,7 @@ class NSEFinance
 		{
 			$result = file_get_contents($this->url);
 		}
-		else if (!empty($symbol) && empty($datea))
+		else if (!empty($symbol) && empty($date))
 		{
 			$url = $this->url."/".$symbol;
 			$result = file_get_contents($url);
